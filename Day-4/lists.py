@@ -21,3 +21,24 @@ print(states_of_india)
 # If you want to explore more about lists then do follow the python's documentation.
 states_of_india.remove("Punjab") # it will remove the specified value from the list
 print(states_of_india) 
+
+# we can directly convert string innto a list by separating out the commas using str.split(',')
+str_inp = "Ashish,From,India"
+li = str_inp.split(",") # By using this method, we can easily convert string into list 
+print(li)
+
+# INDEXERROR: Index out of range error --> This error occurs due to when we try to access any element beyond the range of list/sequece
+num_len = len(states_of_india)
+print(num_len)
+# print(states_of_india[num_len]) # this will give us an error of Indexerror
+
+print(states_of_india[num_len - 1]) # To avoid this error.
+
+# dirty_dozen = ["Strawberry", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
+# there's a term called Nested list
+
+fruits = ["Strawberry", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables] # This list contains further two lists and this is called nested list
+print(dirty_dozen)
