@@ -3,7 +3,7 @@ print(len("Hello"))
 # It will give us output as '5'.
 
 # but when we use len fucntion like this:
-# print(len(1234546))
+# print(len(123456))
 # here, we'll get some error, (TypeError: object of type 'int' has no len())
 
 # DATA TYPES

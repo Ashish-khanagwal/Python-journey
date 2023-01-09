@@ -14,6 +14,6 @@ print(len(input("What is your name? ")))
 name = "Ashish"
 print(name)
 # This will print Ashish in the console, but what if we change 'name' variable's value to something else. See below
-name = "Dhruvi"
+name = "Nidhi"
 print(name)
-# Now this will print Dhruvi as output.
+# Now this will print Nidhi as output.
