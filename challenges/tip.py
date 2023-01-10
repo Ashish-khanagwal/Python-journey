@@ -1,0 +1,6 @@
+bill = float(input("Enter the amount of bill: $"))
+tip = int(input("Enter the tip percentage you want to give: 10, 12 or 15? "))
+no_people = int(input("Bill must split in (no. of people) "))
+pay = ((bill / no_people) * ((tip/100)+1))
+final_pay = "{:.2f}".format(pay)
+print(f"Each person should pay: ${final_pay}")

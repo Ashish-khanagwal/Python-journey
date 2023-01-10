@@ -15,3 +15,6 @@ height = 1.80;
 isWinning = True;
 
 print(f"your score is {score}, your height is {height}, and you are winning {isWinning} ")
+
+name = input("What is your name? ")
+print(name.lower())
