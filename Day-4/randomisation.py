@@ -9,7 +9,7 @@ print(lists.list)
 
 random_integer = random.randint(1, 10)
 print(random_integer)
-# It will print any random number between 1 and 10 including 1 ands 10 too. Every time it'll generate new number.
+# It will print any random number between 1 and 10 including 1 and 10 too. Every time it'll generate new number.
 
 random_float = random.random()
 print(random_float)
