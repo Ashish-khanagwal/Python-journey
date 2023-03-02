@@ -1,6 +1,9 @@
 str = input("Enter a string\n")
-words = input("How many letter you want to remove? ")
+words = int(input("How many letter you want to remove? "))
 
-def remove_letter(word, num):
-  print(word[num:])
-remove_letter(word=str, num=words)
+def remove_chars(str, words):
+  rem_str = ""
+  rem_str += str[words:]
+  print(f"remaining string is {rem_str} ")
+
+remove_chars(str, words)
